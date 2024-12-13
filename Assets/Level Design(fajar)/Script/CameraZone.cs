@@ -1,6 +1,6 @@
 
 using UnityEngine;
-using Cinemachine;
+
 
 [RequireComponent(typeof(Collider))]
 
@@ -44,6 +44,7 @@ public class CameraZone : MonoBehaviour
             GetComponent<Collider>().isTrigger = true;
     }
     #endregion
+
 }
 
 
