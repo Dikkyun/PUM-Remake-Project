@@ -1,4 +1,5 @@
 
+using Unity.Cinemachine;
 using UnityEngine;
 
 
@@ -8,7 +9,7 @@ public class CameraZone : MonoBehaviour
 {
     #region Field
     [SerializeField]
-    private CinemachineVirtualCamera virtualCamera = null;
+    private CinemachineCamera virtualCamera = null;
 
     #endregion
 

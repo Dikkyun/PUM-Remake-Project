@@ -723,7 +723,7 @@ MonoBehaviour:
   m_Time: 2.575
   m_Retroactive: 0
   m_EmitOnce: 0
-  m_Asset: {fileID: 11400000, guid: 5418347b88d654c41b8a6f9d215f4df4, type: 2}
+  m_Asset: {fileID: 11400000, guid: a39184bf9d3282a4a90de5f71004381f, type: 2}
 --- !u!114 &3068945006765309969
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -827,7 +827,25 @@ MonoBehaviour:
     m_BlendOutDuration: -1
     m_MixInCurve:
       serializedVersion: 2
-      m_Curve: []
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -867,6 +885,7 @@ MonoBehaviour:
     m_DisplayName: cAM_dOLLY zoom out(boss bit) focus
   m_Markers:
     m_Objects: []
+  TrackPriority: 0
 --- !u!114 &3490002884883573909
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -882,7 +901,7 @@ MonoBehaviour:
   m_Time: 2.575
   m_Retroactive: 0
   m_EmitOnce: 0
-  m_Asset: {fileID: 11400000, guid: 6de15c76a31c75347a9c0a9bffedb5e0, type: 2}
+  m_Asset: {fileID: 11400000, guid: 4d3f1b0104289bd4abe19e6b1ad259bd, type: 2}
 --- !u!114 &4460327274633361798
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -935,7 +954,7 @@ MonoBehaviour:
   m_Time: 0
   m_Retroactive: 0
   m_EmitOnce: 0
-  m_Asset: {fileID: 11400000, guid: c4f72ebe227115548b040d292f045c6b, type: 2}
+  m_Asset: {fileID: 11400000, guid: c789b008bbbc09345911566bdd8f9150, type: 2}
 --- !u!114 &5830250081551191550
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -951,7 +970,7 @@ MonoBehaviour:
   m_Time: 0
   m_Retroactive: 0
   m_EmitOnce: 0
-  m_Asset: {fileID: 11400000, guid: 935f8c3adaa4e0f4d8fcf7790637977e, type: 2}
+  m_Asset: {fileID: 11400000, guid: c789b008bbbc09345911566bdd8f9150, type: 2}
 --- !u!114 &8276854221359467015
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1032,7 +1051,7 @@ MonoBehaviour:
   m_Time: 4.474999999999998
   m_Retroactive: 0
   m_EmitOnce: 0
-  m_Asset: {fileID: 11400000, guid: 6b636401668500a438da65e860269dd7, type: 2}
+  m_Asset: {fileID: 11400000, guid: c789b008bbbc09345911566bdd8f9150, type: 2}
 --- !u!114 &8575179466774623944
 MonoBehaviour:
   m_ObjectHideFlags: 1
