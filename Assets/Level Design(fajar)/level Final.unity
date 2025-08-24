@@ -93317,7 +93317,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Priority:
     Enabled: 1
-    m_Value: 11
+    m_Value: 10
   OutputChannel: 1
   StandbyUpdate: 2
   m_StreamingVersion: 20241001
@@ -101668,7 +101668,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Priority:
     Enabled: 1
-    m_Value: 10
+    m_Value: 11
   OutputChannel: 1
   StandbyUpdate: 2
   m_StreamingVersion: 20241001
@@ -133224,7 +133224,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Priority:
     Enabled: 1
-    m_Value: 11
+    m_Value: 10
   OutputChannel: 1
   StandbyUpdate: 2
   m_StreamingVersion: 20241001
@@ -134895,7 +134895,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Priority:
     Enabled: 1
-    m_Value: 11
+    m_Value: 10
   OutputChannel: 1
   StandbyUpdate: 2
   m_StreamingVersion: 20241001
@@ -177172,8 +177172,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4282220611329095585}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.02977204, y: -0.10942578, z: -0.0032789994, w: -0.9935436}
-  m_LocalPosition: {x: -72.48923, y: 1.0644093, z: -3.0569305}
+  m_LocalRotation: {x: -0.00013353606, y: 0.9994849, z: -0.031817324, w: -0.0041947984}
+  m_LocalPosition: {x: 31.48288, y: 1.2159618, z: 3.777176}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -180052,9 +180052,9 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.5
-  far clip plane: 10.8
-  field of view: 60
+  near clip plane: 5.22
+  far clip plane: 173.06
+  field of view: 22.26
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
