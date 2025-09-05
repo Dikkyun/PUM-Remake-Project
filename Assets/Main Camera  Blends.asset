@@ -178,3 +178,14 @@ MonoBehaviour:
         m_PreInfinity: 0
         m_PostInfinity: 0
         m_RotationOrder: 4
+  - From: cam(dolly zoom out)
+    To: cam(Combat argument)
+    Blend:
+      Style: 1
+      Time: 2.3
+      CustomCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 0
+        m_PostInfinity: 0
+        m_RotationOrder: 4
