@@ -6,7 +6,6 @@ using UnityEngine.UI;
 using DG.Tweening;
 using Fungus;
 using UnityEngine.SceneManagement;
-
 public enum BattleState { START, PLAYERTURN, ENEMYTURN, WON, LOST }
 
 [System.Serializable]
@@ -244,19 +243,19 @@ public class BattleSystem : MonoBehaviour
         // Now show the arguments options
         switch (selectedQuestion)
         {
-            case "He's a liar, right?":
+            case "What is the point of life?":
                 ShowArgumentsOptions(argumentsForLife);
                 break;
-            case "I will always be like this...":
+            case "What are the things i should think of?":
                 ShowArgumentsOptions(argumentsForThink);
                 break;
             case "Why everyone is so unreliable?":
                 ShowArgumentsOptions(argumentsForUnreliable);
                 break;
-            case "What do you want?":
+            case "Why destiny hates me?":
                 ShowArgumentsOptions(argumentsForDestiny);
                 break;
-            case "Let's give up on this...":
+            case "how do i love my life?":
                 ShowArgumentsOptions(argumentsForLoveLife);
                 break;
             default:
