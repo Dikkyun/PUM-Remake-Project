@@ -22,6 +22,8 @@ public class NPCInteraction2 : MonoBehaviour
     private bool playerInRange = false;
     private bool dialogFinished = false;
 
+    public bool handleNPCVisibility = true;
+
     public void Start()
     {
         Screen.SetActive(false);
@@ -45,11 +47,14 @@ public class NPCInteraction2 : MonoBehaviour
             yield return null;  
         }
 
+        if(handleNPCVisibility == true)
+        {
+            HandleNPCVisibility();
+        }
         
-        HandleNPCVisibility();
     }
 
-    void HandleNPCVisibility()
+    public void HandleNPCVisibility()
     {
         if (gameObject.name == "NPC1")
         {
